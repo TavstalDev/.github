@@ -1,0 +1,19 @@
+name: Sync labels
+on:
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  sync:
+    name: Run EndBug/label-sync
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: EndBug/label-sync@v2
+        with:
+          delete-other-labels: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+          source-repo: TavstalDev/PayPalSDK
+          config-file: 'https://raw.githubusercontent.com/TavstalDev/.github/refs/heads/main/.github/labels.yml'
