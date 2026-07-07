@@ -8,7 +8,7 @@ permissions:
 jobs:
   sync:
     name: Run EndBug/label-sync
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: EndBug/label-sync@v2
