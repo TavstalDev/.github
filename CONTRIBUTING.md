@@ -1,4 +1,4 @@
-# Contributing to <PROJECT_NAME>
+# Contributing Guide
 Thank you for wanting to help out!
 Whether you are fixing a bug, adding a new feature, or updating the documentation, your help is highly appreciated.
 
@@ -120,4 +120,4 @@ async function createOrder(request: CreateOrderRequest): Promise<Order> {
 ## Questions?
 If you are unsure about anything, just open an issue and ask. Every contribution helps, no matter how small.
 
-Thank you for making <PROJECT_NAME> better!
+Thank you for making this project better!
