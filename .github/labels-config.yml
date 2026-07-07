@@ -1,0 +1,74 @@
+- name: 'priority: critical'
+  color: 'b60205'
+  description: 'Needs immediate attention'
+  aliases: []
+
+- name: 'priority: high'
+  color: 'd93f0b'
+  description: 'Important, address soon'
+  aliases: []
+
+- name: 'priority: medium'
+  color: 'fbca04'
+  description: 'Normal priority'
+  aliases: []
+
+- name: 'priority: low'
+  color: '0e8a16'
+  description: 'Low priority, can wait'
+  aliases: []
+
+- name: "status: can't reproduce"
+  color: 'cfd3d7'
+  description: 'Unable to reproduce the issue'
+  aliases: []
+
+- name: 'status: confirmed'
+  color: '1d76db'
+  description: 'Verified and reproducible'
+  aliases: []
+
+- name: 'status: duplicate'
+  color: 'cfd3d7'
+  description: 'This already exists'
+  aliases: [ 'duplicate' ]
+
+- name: 'status: needs information'
+  color: 'c5def5'
+  description: 'Waiting on more details'
+  aliases: [ 'help wanted', 'question' ]
+
+- name: "status: wont do/fix"
+  color: 'cfd3d7'
+  description: 'Not going to be addressed'
+  aliases: [ 'wontfix', 'invalid' ]
+
+- name: 'type: bug'
+  color: 'd73a4a'
+  description: 'Something is not working'
+  aliases: [ 'bug' ]
+
+- name: 'type: discussion'
+  color: 'd876e3'
+  description: 'Open-ended discussion'
+  aliases: []
+
+- name: 'type: documentation'
+  color: 'c5def5'
+  description: 'Documentation changes'
+  aliases: [ 'documentation' ]
+
+- name: 'type: feature request'
+  color: '0e8a16'
+  description: 'Suggests a new feature'
+  aliases: [ 'enhancement' ]
+
+- name: 'type: github-actions'
+  color: '2088ff'
+  description: 'GitHub Actions workflows and automation'
+  aliases: []
+
+- name: 'type: release'
+  color: '6f42c1'
+  description: 'Nuget packages, deployments, and release management'
+  aliases: [ 'type: nuget' ]
