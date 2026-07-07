@@ -15,4 +15,5 @@ jobs:
         with:
           delete-other-labels: true
           token: ${{ secrets.GITHUB_TOKEN }}
+          request-token: ${{ secrets.GITHUB_TOKEN }}
           config-file: 'https://raw.githubusercontent.com/TavstalDev/TavstalDev/refs/heads/main/.github/labels.yml'
