@@ -14,4 +14,4 @@ jobs:
       - uses: EndBug/label-sync@v2
         with:
           delete-other-labels: true
-          config-file: 'https://raw.githubusercontent.com/TavstalDev/TavstalDev/refs/heads/main/.github/labels.yml'
+          config-file: 'https://raw.githubusercontent.com/TavstalDev/.github/refs/heads/main/.github/labels-config.yml'
