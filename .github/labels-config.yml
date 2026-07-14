@@ -18,6 +18,11 @@
   description: 'Low priority, can wait'
   aliases: []
 
+- name: "status: needs review"
+  color: 'fef2c0'
+  description: 'Requires team review or approval'
+  aliases: []
+
 - name: "status: can't reproduce"
   color: 'cfd3d7'
   description: 'Unable to reproduce the issue'
@@ -66,7 +71,7 @@
 - name: 'type: github-actions'
   color: '2088ff'
   description: 'GitHub Actions workflows and automation'
-  aliases: []
+  aliases: [ 'github-actions' ]
 
 - name: 'type: release'
   color: '6f42c1'
